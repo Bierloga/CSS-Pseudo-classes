@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first:hover {
+    font-weight:bold;
+    color: lightblue;
+}
+
+.second:active {
+    color: red;
+    font-style:italic;
+}
+
+.third:visited {
+    color:yellow;
+}
+
+.fourth:focus {
+    color:green;
+    font-size: 20px;
+}
+
+nav {
+    background-color: darkblue;
+}
+
+.currentPage {
+    background-color: #474b4e
+}
+ul li:first-child {
+    padding-left: 0;
+}
+
+ul li {
+    padding: 100px;
+    display: inline;
+}
+
+li a {
+    color:white;
+}
+
+li a:hover {
+    background-color: lightblue;
+}
+
+input:focus {
+    border: 5px solid aqua;
+}
